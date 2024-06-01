@@ -1,0 +1,14 @@
+mongodb:
+  database: ChainEdgeV2
+  collection: AlertsV2DataOcean
+
+telegram:
+  source_channel_id: -1001915674885
+  session_file: /path/to/your/session_file_name  # Replace "/path/to/your/session_file_name" with the actual path to your session file
+
+files:
+  sourcemessages: sourcemessages.txt
+  processed_messages: processed_messages.txt
+
+logs:
+  filename: app.log
